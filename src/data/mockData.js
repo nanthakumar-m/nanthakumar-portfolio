@@ -5,7 +5,7 @@ export const personalInfo = {
   phone: "8526554466",
   location: "Coimbatore",
   bio: "Passionate full-stack developer skilled in building scalable web applications. I love creating elegant solutions to complex problems and staying up-to-date with the latest technologies.",
-  image: "/images/nandhu1.jpg",
+  image: process.env.PUBLIC_URL + "/images/nandhu1.jpg",
   socialLinks: {
     github: "https://github.com/nanthakumar-m",
     linkedin: "https://www.linkedin.com/in/nanthakumar04/",
@@ -112,7 +112,7 @@ export const projects = [
     title: "Cash Craft - Simple Digital Payment Site",
     description:
       "CashCraft is a simple streamlined online transaction platform developed in with JavaScript mentor, focusing on hands-on learning and practical digital payment systems.",
-    image: "/images/bankist1.jpg",
+    image: process.env.PUBLIC_URL + "/images/bankist1.jpg",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink:
       "https://github.com/nanthakumar-m/Cash_Craft-Simple_Digital_payment_site-Javascript",
@@ -124,7 +124,7 @@ export const projects = [
     title: "Bankist - Webiste for Fictional Bank",
     description:
       "Bankist is a front-end demo site simulating real banking features like account management and banking operations alomg with an interactive user interface.",
-    image: "images/bankist.png",
+    image: process.env.PUBLIC_URL + "/images/bankist.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink:
       "https://github.com/nanthakumar-m/Bankist-Website_for_fictional_bank-Javascript",
@@ -135,7 +135,7 @@ export const projects = [
     title: "Pig Game",
     description:
       "Pig Game is an interactive  dice game built using JavaScript. It features dynamic turn-based gameplay, real-time score tracking, and engaging user interactions, providing a fun  gaming experience.",
-    image: "images/pig-game.png",
+    image: process.env.PUBLIC_URL + "/images/pig-game.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/nanthakumar-m/Pig_Game-Html-Css-Javascript",
     featured: false,
@@ -145,7 +145,7 @@ export const projects = [
     title: "Currency Convertor",
     description:
       "A currency converter react app that fetches live exchange rates and instantly converts between selected currencies.",
-    image: "images/currency-convertor.png",
+    image: process.env.PUBLIC_URL + "/images/currency-convertor.png",
     technologies: ["HTML", "CSS", "React"],
     githubLink: "https://github.com/nanthakumar-m/currency_convertor-react",
     featured: false,
@@ -155,9 +155,9 @@ export const projects = [
     title: "Travel Time - A tour guide",
     description:
       "Travel Time is a travel guide platform, offering destination details, travel tips, and itinerary planning for a seamless travel experience.",
-    image: "images/travel-website.png",
+    image: process.env.PUBLIC_URL + "/images/travel-website.png",
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink:
+    githubLink:
       "https://github.com/nanthakumar-m/Travel_Time-Tourist_Website-Html-Css-Javascript",
     featured: false,
   },
@@ -166,7 +166,7 @@ export const projects = [
     title: "Guess the number",
     description:
       "Guess The Number is a simple game where you guess a number between 1 and 20, with hints and scoring to keep it engaging.",
-    image: "images/guess-the-number2.png",
+    image: process.env.PUBLIC_URL + "/images/guess-the-number2.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/nanthakumar-m/Guess_the_number-Javascript",
     featured: false,
@@ -176,7 +176,7 @@ export const projects = [
     title: "Expense Tracker",
     description:
       "The Expense Tracker is an interactive web app that helps users monitor their daily spending by adding expenses with details such as amount, category, and date.",
-    image: "images/expense-tracker.png",
+    image: process.env.PUBLIC_URL + "/images/expense-tracker.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink:
       "https://github.com/nanthakumar-m/Expense-Tracer-Html-Css-Javascript",
@@ -187,7 +187,7 @@ export const projects = [
     title: "Bmi Calculator",
     description:
       "A fast and simple BMI calculator built with React and Vite. It takes weight and height as user input and instantly displays BMI value along with health status.",
-    image: "images/bmi-calculator.png",
+    image: process.env.PUBLIC_URL + "/images/bmi-calculator.png",
     technologies: ["HTML", "CSS", "React"],
     githubLink: "https://github.com/nanthakumar-m/bmi_converter-react",
     featured: false,
@@ -197,41 +197,41 @@ export const projects = [
     title: "To-Do App",
     description:
       "A basic to-do app built using React and Vite. Lets users add, complete, and remove tasks in a simple interface.",
-    image: "images/to-do.png",
+    image: process.env.PUBLIC_URL + "/images/to-do.png",
     technologies: ["HTML", "CSS", "React"],
     githubLink: "https://github.com/nanthakumar-m/todo_app-react",
     featured: false,
   },
-  {
-    id: 10,
-    title: "Weather App",
-    description:
-      "A weather forecast app built with React and Axios. Fetches live weather data for any city and displays temperature, condition, and icons in a user-friendly UI.",
-    image: "images/weather-app.png",
-    technologies: ["HTML", "CSS", "React"],
-    githubLink: "https://github.com/nanthakumar-m/weather_app-react",
-    featured: false,
-  },
-  {
-    id: 11,
-    title: "QrCode Generator",
-    description:
-      "The QR Code Generator App is a React-based Application that allows users to enter any text or URL and instantly generate a scannable QR code.",
-    image: "images/qrcode_generator.png",
-    technologies: ["HTML", "CSS", "React"],
-    githubLink: "https://github.com/nanthakumar-m/qrcode_generator-react",
-    featured: false,
-  },
-  {
-    id: 12,
-    title: "Password Generator",
-    description:
-      "The Password Generator generates strong, random passwords based on user-selected criteria such as length, and the inclusion of uppercase letters, numbers, and .",
-    image: "images/password-generator.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    githubLink: "https://github.com/nanthakumar-m/password_generator-react",
-    featured: false,
-  },
+  // {
+  //   id: 10,
+  //   title: "Weather App",
+  //   description:
+  //     "A weather forecast app built with React and Axios. Fetches live weather data for any city and displays temperature, condition, and icons in a user-friendly UI.",
+  //   image: process.env.PUBLIC_URL + "images/weather-app.png",
+  //   technologies: ["HTML", "CSS", "React"],
+  //   githubLink: "https://github.com/nanthakumar-m/weather_app-react",
+  //   featured: false,
+  // },
+  // {
+  //   id: 11,
+  //   title: "QrCode Generator",
+  //   description:
+  //     "The QR Code Generator App is a React-based Application that allows users to enter any text or URL and instantly generate a scannable QR code.",
+  //   image: process.env.PUBLIC_URL + "images/qrcode_generator.png",
+  //   technologies: ["HTML", "CSS", "React"],
+  //   githubLink: "https://github.com/nanthakumar-m/qrcode_generator-react",
+  //   featured: false,
+  // },
+  // {
+  //   id: 12,
+  //   title: "Password Generator",
+  //   description:
+  //     "The Password Generator generates strong, random passwords based on user-selected criteria such as length, and the inclusion of uppercase letters, numbers, and .",
+  //   image: process.env.PUBLIC_URL + "images/password-generator.png",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   githubLink: "https://github.com/nanthakumar-m/password_generator-react",
+  //   featured: false,
+  // },
   // {
   //   id: 13,
   //   title: "Weather App",
