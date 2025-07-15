@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nanthakumar-m/nanthakumar-portfolio.git/static/css/main.3f07b673.css",
+    "main.js": "/nanthakumar-m/nanthakumar-portfolio.git/static/js/main.dd5c17ee.js",
+    "index.html": "/nanthakumar-m/nanthakumar-portfolio.git/index.html",
+    "main.3f07b673.css.map": "/nanthakumar-m/nanthakumar-portfolio.git/static/css/main.3f07b673.css.map",
+    "main.dd5c17ee.js.map": "/nanthakumar-m/nanthakumar-portfolio.git/static/js/main.dd5c17ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f07b673.css",
+    "static/js/main.dd5c17ee.js"
+  ]
+}
