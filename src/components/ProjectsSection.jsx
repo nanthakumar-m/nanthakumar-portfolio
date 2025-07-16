@@ -82,7 +82,8 @@ const ProjectsSection = () => {
                     className="text-xl sm:text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                     {project.title}
                   </motion.h3>
-                  <p className="text-gray-300 mb-4 leading-relaxed">
+
+                  <p className="text-gray-300 mb-4 leading-relaxed  group-hover:text-blue-200 transition-colors duration-300">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">

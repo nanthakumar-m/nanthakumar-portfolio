@@ -202,36 +202,36 @@ export const projects = [
     githubLink: "https://github.com/nanthakumar-m/todo_app-react",
     featured: false,
   },
-  // {
-  //   id: 10,
-  //   title: "Weather App",
-  //   description:
-  //     "A weather forecast app built with React and Axios. Fetches live weather data for any city and displays temperature, condition, and icons in a user-friendly UI.",
-  //   image: process.env.PUBLIC_URL + "images/weather-app.png",
-  //   technologies: ["HTML", "CSS", "React"],
-  //   githubLink: "https://github.com/nanthakumar-m/weather_app-react",
-  //   featured: false,
-  // },
-  // {
-  //   id: 11,
-  //   title: "QrCode Generator",
-  //   description:
-  //     "The QR Code Generator App is a React-based Application that allows users to enter any text or URL and instantly generate a scannable QR code.",
-  //   image: process.env.PUBLIC_URL + "images/qrcode_generator.png",
-  //   technologies: ["HTML", "CSS", "React"],
-  //   githubLink: "https://github.com/nanthakumar-m/qrcode_generator-react",
-  //   featured: false,
-  // },
-  // {
-  //   id: 12,
-  //   title: "Password Generator",
-  //   description:
-  //     "The Password Generator generates strong, random passwords based on user-selected criteria such as length, and the inclusion of uppercase letters, numbers, and .",
-  //   image: process.env.PUBLIC_URL + "images/password-generator.png",
-  //   technologies: ["HTML", "CSS", "JavaScript"],
-  //   githubLink: "https://github.com/nanthakumar-m/password_generator-react",
-  //   featured: false,
-  // },
+  {
+    id: 10,
+    title: "Weather App",
+    description:
+      "A weather forecast app built with React and Axios. Fetches live weather data for any city and displays temperature, condition, and icons in a user-friendly UI.",
+    image: process.env.PUBLIC_URL + "/images/weather-app.png",
+    technologies: ["HTML", "CSS", "React"],
+    githubLink: "https://github.com/nanthakumar-m/weather_app-react",
+    featured: false,
+  },
+  {
+    id: 11,
+    title: "QrCode Generator",
+    description:
+      "The QR Code Generator App is a React-based Application that allows users to enter any text or URL and instantly generate a scannable QR code.",
+    image: process.env.PUBLIC_URL + "/images/qrcode_generator.png",
+    technologies: ["HTML", "CSS", "React"],
+    githubLink: "https://github.com/nanthakumar-m/qrcode_generator-react",
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "Password Generator",
+    description:
+      "The Password Generator generates strong, random passwords based on user-selected criteria such as length, and the inclusion of uppercase letters, numbers, and .",
+    image: process.env.PUBLIC_URL + "/images/password-generator.png",
+    technologies: ["HTML", "CSS", "React"],
+    githubLink: "https://github.com/nanthakumar-m/password_generator-react",
+    featured: false,
+  },
   // {
   //   id: 13,
   //   title: "Weather App",
